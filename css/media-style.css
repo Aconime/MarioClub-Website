@@ -1,0 +1,119 @@
+@media only screen and (max-width: 1580px) {
+    .banner-msg > h1 {
+        font-size: 43pt !important;
+    }
+
+    .banner-msg > h1 > span {
+        font-size: 45pt !important;
+    }
+}
+
+@media only screen and (max-width: 1225px) {
+    .banner-msg {
+        display: block !important;
+        left: 0 !important;
+        position: relative !important;
+        width: 100% !important;
+        padding: 0px !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+        text-align: center !important;
+        background: #252525 !important;
+        margin: 0px !important;
+        margin-top: -4px !important;
+        border-radius: 0 !important;
+    }
+
+    .banner-msg > h1, .banner-msg > h1 > span {
+        font-size: 18pt !important;
+        display: inline !important;
+        font-weight: 100 !important;
+    }
+
+    .banner-msg > h1 > br {
+        display: none !important;
+    }
+
+    article {
+        text-align: center !important;
+        padding-top: 50px !important;
+    }
+
+    article > p {
+        text-align: center !important;
+    }
+
+    .thumb-wrap > h1 {
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    article {
+        width: 100% !important;
+        margin: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        box-sizing: border-box !important;
+    }
+
+    .thumbs {
+        padding-bottom: 0px !important;
+    }
+
+    .thumb-wrap {
+        width: 100% !important;
+        margin: 0 !important;
+        text-align: center !important;
+    }
+
+    .th-img {
+        width: 90%;
+        margin: 0px !important;
+        margin-bottom: 50px !important;
+    }
+
+    .join-wrap {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 10px !important;
+        box-sizing: border-box !important;
+    }   
+}
+
+@media only screen and (max-width: 895px) {
+    header {
+        text-align: center !important;
+        padding-top: 21.5px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .logo {
+        display: inline-block !important;
+        float: none !important;
+        margin: 0 !important;
+        margin-top: 10px !important;
+        font-size: 32pt;
+        border: 8px solid #eee;
+        font-weight: bolder;
+    }
+}
+
+@media only screen and (max-width: 535px) {
+    .join-form > input[type=email] {
+        width: 100% !important;
+        box-sizing: border-box !important;
+    }
+
+    .join-form > input[type=submit] {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+
+    .banner > img {
+        object-position: 85% center;
+    }
+}
